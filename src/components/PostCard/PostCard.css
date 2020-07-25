@@ -1,0 +1,83 @@
+.post__card {
+  border: 1px solid #dbdbdb;
+  background-color: #ffffff;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+.post__header {
+  padding: 5px 0 5px 16px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #efefef;
+}
+
+.post__avatar {
+  object-fit: contain;
+  height: 7%;
+  width: 7%;
+}
+
+.post__username {
+  margin-left: 15px;
+  flex: 1;
+  color: #343434;
+  font-size: 15px;
+}
+
+.post__image {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.post__iconAction {
+  display: flex;
+}
+
+.post__actionSaveBtn {
+  margin-left: auto;
+}
+
+.post__like {
+  padding-left: 16px;
+  padding-right: 16px;
+  font-weight: bold;
+}
+
+.post__caption {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.post__date {
+  padding-left: 16px;
+  font-size: 12px;
+  color: #a8a8a8;
+}
+
+.post__comment {
+  border-top: 1px solid #efefef;
+  margin-top: 8px;
+  display: flex;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.post__commentInput {
+  text-decoration: none;
+  flex: 1;
+  height: 50px;
+  width: fit-content;
+  outline: none;
+  border: none;
+}
+
+.post__commentBtn {
+  color: #3baef8;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
